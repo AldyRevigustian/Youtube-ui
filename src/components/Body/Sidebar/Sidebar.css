@@ -1,0 +1,9 @@
+.menus:hover{
+    background-color: #E5E5E5;
+}
+
+.garis-batas{
+    /* border-bottom: 0.5px solid #CCCCCC; */
+    border-bottom: 0.2px solid #E5E5E5;
+    margin:15px 10px 15px 0;
+}
