@@ -6,7 +6,7 @@ function Body(props){
     const {toggleMenu, setToggleMenu} = props;
     
     return(
-        <div style={{display: 'flex', flex: 1, flexDirection: 'row'}}>
+        <div style={{display: 'flex', flex: 1, flexDirection: 'row', }}>
             <SideBar toggleMenu={toggleMenu} setToggleMenu={setToggleMenu}/>
             <Content toggleMenu={toggleMenu} setToggleMenu={setToggleMenu}/>
         </div>
